@@ -21,3 +21,20 @@ Tras analizar el mercado y descartar los "partes de trabajo genéricos" por alta
 1. **Barrera de entrada normativa máxima:** Solo un instalador habilitado e inscrito en el Registro Integrado Industrial puede firmar.
 2. **Competencia inexistente en España:** Las apps actuales están orientadas a normativa británica (Gas Safe) o a climatización (F-gas/RITE).
 3. **Fuera del alcance Verifactu:** Al ser un documento técnico y no una factura con valor fiscal, se evita la carga de homologación normativa de Hacienda (obligatoria en 2026/2027 para software de facturación).
+
+## Estructura de carpetas
+lib/
+├── core/
+│   ├── constants/
+│   ├── theme/
+│   └── utils/
+├── data/
+│   ├── network/
+│   └── repositories/
+├── models/
+├── providers/
+├── services/
+├── ui/
+│   ├── screens/
+│   └── widgets/
+└── main.dart
